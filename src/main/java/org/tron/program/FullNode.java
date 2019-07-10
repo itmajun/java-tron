@@ -44,6 +44,7 @@ public class FullNode {
    */
   public static void main(String[] args) {
     logger.info("Full node running.");
+    // jcommander 用来进行参数解析
     Args.setParam(args, Constant.TESTNET_CONF);
     Args cfgArgs = Args.getInstance();
 
